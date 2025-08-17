@@ -19,13 +19,13 @@ It takes raw CSV sales data, processes it into a clean format, trains a forecast
 ## 📂 Project Structure
 
 Sales_Forecasting/
-│── main.py # Main entry point to run the whole pipeline
-│── dataprocessing.py # Cleans and prepares raw sales data
-│── forecastingmodel.py # Builds, trains, and forecasts with Prophet
-│── utils.py # Utility functions (plot saving, etc.)
-│── data/
-│ └── raw_sales.csv # Input data file (not included in repo)
-│── visuals/ # Generated plots will be saved here
+│── main.py # Main entry point to run the whole pipeline\n
+│── dataprocessing.py # Cleans and prepares raw sales data\n
+│── forecastingmodel.py # Builds, trains, and forecasts with Prophet\n
+│── utils.py # Utility functions (plot saving, etc.)\n
+│── data/\n
+│ └── raw_sales.csv # Input data file (not included in repo)\n
+│── visuals/ # Generated plots will be saved here\n
 
 
 ---
@@ -46,19 +46,16 @@ Sales_Forecasting/
    ```
    pip install -r requirements.txt
    ```
-▶️ Usage
+##▶️ Usage
 
 1. Place your sales data in data/raw_sales.csv.
 2. The file must contain at least these two columns:
   -Order Date (e.g., 2023-01-15)
   -Total Revenue (numeric)
 3. Run the pipeline:
-```
-python main.py
-```
-
+   ```
+   python main.py
+   ```
 4. Check the outputs in the visuals/ folder:
-
 5. forecast_plot.png → Forecast curve with uncertainty intervals.
-
 6. components_plot.png → Trend and seasonality breakdown.
