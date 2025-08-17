@@ -18,15 +18,14 @@ It takes raw CSV sales data, processes it into a clean format, trains a forecast
 
 ## 📂 Project Structure
 
-Sales_Forecasting/
-│── main.py # Main entry point to run the whole pipeline\n
-│── dataprocessing.py # Cleans and prepares raw sales data\n
-│── forecastingmodel.py # Builds, trains, and forecasts with Prophet\n
-│── utils.py # Utility functions (plot saving, etc.)\n
-│── data/\n
-│ └── raw_sales.csv # Input data file (not included in repo)\n
-│── visuals/ # Generated plots will be saved here\n
-
+Sales_Forecasting/  
+│── main.py              # Main entry point to run the whole pipeline  
+│── dataprocessing.py    # Cleans and prepares raw sales data  
+│── forecastingmodel.py  # Builds, trains, and forecasts with Prophet  
+│── utils.py             # Utility functions (plot saving, etc.)  
+│── data/  
+│   └── raw_sales.csv    # Input data file (not included in repo)  
+│── visuals/             # Generated plots will be saved here  
 
 ---
 
