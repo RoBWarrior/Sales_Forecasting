@@ -45,7 +45,7 @@ Sales_Forecasting/
    ```
    pip install -r requirements.txt
    ```
-##▶️ Usage
+## ▶️ Usage
 
 1. Place your sales data in data/raw_sales.csv.
 2. The file must contain at least these two columns:
